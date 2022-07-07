@@ -1,4 +1,4 @@
-let changeColor = document.getElementById('elemento')
+var changeColor = document.getElementById('elemento')
 
 function blue() {
     changeColor.classList.remove('dark-blue','dark-pink','pink');
