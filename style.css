@@ -101,7 +101,7 @@ ul li a {
   margin-bottom: 16px;
   border-radius: 6px;
 
-  transition: background 400ms;
+  transition: 400ms;
 }
 
 ul li a:hover {
@@ -134,8 +134,10 @@ input {
   height: 50px;
   border-radius: 50%;
   border: none;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.300);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.600);
   margin: 0px 5px;
+
+  transition: 0.2s;
 }
 
 input:hover {
